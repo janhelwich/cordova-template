@@ -1,25 +1,13 @@
-%div.header
-    %div.container
-        %a.brand Market - your local marketplace
-%div.container
-    %div.row
-        %div.span8.well
-            %div.row
-                %div.span2
-                    %img(src="http://localhost:9000/assets/images/pic.jpg")
-                %div.span4
-                    %h3 Kewl thing
-                    %p
-                        really kewl as u can see
-                        %br more bla bla
-                        and even more of this crapy stuff
-                    %p
-                    %h4 price: 43
-                %div.span2
-                    %iframe.thumbnail(src="/map" width='100%')
-
-//%script(type="text/javascript" src="assets/javascripts/coffee-script.js")
-//%script(type="text/javascript" src="assets/javascripts/coffeejade.js")
-//:javascript
-//    var template = jade.template('h1 Hello #{name}');
-//    alert(template({name: 'Hiram'}));
+%iframe{:src => "Market.html", :width => "100%"}
+%h1 Hey, it's Cordova!
+%p
+    Don't know how to get started? Check out our
+%em
+    %a{:href => "http://docs.phonegap.com/en/edge/guide_getting-started_ios_index.md.html#Getting%20Started%20with%20iOS", :target => "_blank"} Getting Started Guide
+%br/
+%ol
+    %li Check your console log for any white-list rejection errors.
+    %li
+        Add your allowed
+        %strong hosts
+        in Cordova.plist/ExternalHosts (wildcards OK, don't enter the URL scheme)

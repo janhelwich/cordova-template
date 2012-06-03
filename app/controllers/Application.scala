@@ -10,12 +10,4 @@ object Application extends Controller {
     Ok(render("landing.scaml"))
   }
 
-  def map = Action {
-    Ok( render("map.scaml"))
-  }
-
-  def mobile = Action {
-    Ok( render("mobile.scaml"))
-  }
-
 }

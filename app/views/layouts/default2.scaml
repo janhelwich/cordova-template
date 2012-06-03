@@ -1,3 +1,5 @@
+-@ var body:String
+
 !!!
 %html
     %head
@@ -26,16 +28,4 @@
             }
 
     %body{:onload => "onBodyLoad()"}
-        %iframe{:src => "Market.html", :width => "100%"}
-        %h1 Hey, it's Cordova!
-        %p
-            Don't know how to get started? Check out our
-        %em
-            %a{:href => "http://docs.phonegap.com/en/edge/guide_getting-started_ios_index.md.html#Getting%20Started%20with%20iOS", :target => "_blank"} Getting Started Guide
-        %br/
-        %ol
-            %li Check your console log for any white-list rejection errors.
-            %li
-                Add your allowed
-                %strong hosts
-                in Cordova.plist/ExternalHosts (wildcards OK, don't enter the URL scheme)
+        -unescape(body)
