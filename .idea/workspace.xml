@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="541e9628-4660-4896-b17c-be1829731c71" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/default.scaml" afterPath="$PROJECT_DIR$/app/views/layouts/default.scaml" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +63,7 @@
       <file leaf-file-name="default.scaml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/default.scaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.49876237">
+            <state line="43" column="74" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.740099">
               <folding />
             </state>
           </provider>
@@ -593,7 +592,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/default.scaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.49876237">
+        <state line="43" column="74" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.740099">
           <folding />
         </state>
       </provider>
